@@ -9,7 +9,7 @@ class MakeDotAccess(dict):
     __setattr__ = dict.__setitem__
     __delatte__ = dict.__delitem__
 
-example_dict = { "name" : "shashkamal",
+example_dict = { "name" : "shashikamal",
                  "job" : "developer"
                }
 #this will work
